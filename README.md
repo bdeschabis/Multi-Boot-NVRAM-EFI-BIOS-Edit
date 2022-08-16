@@ -1,5 +1,6 @@
 # NVRAM-linux
 ==== preamble : Here are a few explanations (to my knowledge) about the starting up  of  the computers known as UEFI or EFI BIOS.
+
 On any mother board there is a memory which is not erased  even after the computer shuts down. This non volatile memory is often called NVRAM : acronym for Non Volatile Random Access Memory.
 
 Among other things, that memory contains : 
