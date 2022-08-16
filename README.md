@@ -36,3 +36,11 @@ It enables one to create, modify, suppress rows from the table which contains th
 In fact, according to the indications it receives from the user and to the NVRAM content, it composes and launches the commands which could have been laboriously created manually in a terminal to reach the same result.
 
 The used commands are displayed at the bottom of each window before being executed.
+
+==== Setup
+in any folder, copy the efibootmgr_Us.bash script and the python script efibootmgr_Us.py. In the efibootmgr_Us.bash script, change the name of the folder containing these two files (change "sudo python3 /home/bernard/.Scripts/efibootmgr_Us.py" to "sudo python3 /home/your folder/efibootmgr_Us.py".
+And then, create a launcher on the desktop that launches the efibootmgr_Us.bash script in a terminal.
+There are also two icons that may be useful to you, EFI.png and efibootmgr_sdx.png.
+The program requires python3, python3-tk
+
+As I'm a casual and beginner programmer, be indulgent and modify this program as you wish if you are able. It works on ASUS PC with Debian and Mint as well as Old Apple with Mint and Kubuntu.
