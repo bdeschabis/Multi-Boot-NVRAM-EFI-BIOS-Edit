@@ -44,3 +44,10 @@ There are also two icons that may be useful to you, EFI.png and efibootmgr_sdx.p
 The program requires python3, python3-tk
 
 As I'm a casual and beginner programmer, be indulgent and modify this program as you wish if you are able. It works on ASUS PC with Debian and Mint as well as Old Apple with Mint and Kubuntu.
+
+
+
+![screenshot_a](https://user-images.githubusercontent.com/111367455/185114243-e16fbb3d-427c-4ec6-8b80-0efa94fbbe4a.png)
+
+
+![screenshot_b](https://user-images.githubusercontent.com/111367455/185114276-87b7e71e-9220-4928-9d50-30bef5a1066d.png)
