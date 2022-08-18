@@ -37,7 +37,7 @@ In fact, according to the indications it receives from the user and to the NVRAM
 
 The used commands are displayed at the bottom of each window before being executed.
 
-==== Setup
+==== Setup :  
 in any folder, copy the efibootmgr_Us.bash script and the python script efibootmgr_Us.py. In the efibootmgr_Us.bash script, change the name of the folder containing these two files (change "sudo python3 /home/bernard/.Scripts/efibootmgr_Us.py" to "sudo python3 /home/your folder/efibootmgr_Us.py".
 And then, create a launcher on the desktop that launches the efibootmgr_Us.bash script in a terminal.
 There are also two icons that may be useful to you, EFI.png and efibootmgr_sdx.png.
