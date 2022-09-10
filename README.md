@@ -1,4 +1,4 @@
-# NVRAM MultiBoot (Python linux to easy create, modify, delete, reorder  launchers in NVRAM for EFI-BIOS systems)
+# EFI BIOS NVRAM MultiBoot (Python linux to easy create, modify, delete, reorder  launchers in NVRAM for EFI-BIOS systems)
 ==== preamble : Here are a few explanations (to my knowledge) about the starting up  of  the computers known as UEFI or EFI BIOS.
 
 On any mother board there is a memory which is not erased  even after the computer shuts down. This non volatile memory is often called NVRAM : acronym for Non Volatile Random Access Memory.
@@ -34,3 +34,5 @@ As I'm a casual programmer, be indulgent and modify this program as you wish if 
 
 
 ![screenshot_b](https://user-images.githubusercontent.com/111367455/185114276-87b7e71e-9220-4928-9d50-30bef5a1066d.png)
+
+![screenshot_f](https://user-images.githubusercontent.com/111367455/189486817-ca9d1ca8-9a46-47da-9567-2af5ceb9e99f.png)
