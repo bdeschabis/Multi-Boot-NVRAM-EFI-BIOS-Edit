@@ -56,11 +56,4 @@ screenshot_e.png    affichage d'informations concernant l'EFI Boot et la NvRam
 screenshot_f.png    installation de BootNext, qui permet d'utiliser le lanceur choisi pour une fois seulement, avec retour à l'état initial au boot suivant 
 screenshot_g.png    suppression de BootNext
 
-![screenshot_01](https://user-images.githubusercontent.com/111367455/190638776-7b3ac1ac-4320-49af-b44a-51dd691c5cfe.png)
-![screenshot_a](https://user-images.githubusercontent.com/111367455/190638791-46118db8-3fb4-4139-ad7a-9ebf4e8313d6.png)
-![screenshot_b](https://user-images.githubusercontent.com/111367455/190638803-84175974-9558-4d94-9b87-41e12ba92ea8.png)
-![screenshot_c](https://user-images.githubusercontent.com/111367455/190638848-0ff8515e-7006-47ac-bf75-e97a584fbad7.png)
-![screenshot_d](https://user-images.githubusercontent.com/111367455/190638876-79de50a6-08c7-4aff-8170-12d3c40da29c.png)
-![screenshot_e](https://user-images.githubusercontent.com/111367455/190638884-8dcc1393-db61-4546-bfc0-4c54b78d6e63.png)
-![screenshot_f](https://user-images.githubusercontent.com/111367455/190638896-0ead358f-e113-45a5-a123-e0c3cf7a0aa8.png)
-![screenshot_g](https://user-images.githubusercontent.com/111367455/190638916-424a0aa9-ba18-4a72-a7f0-83ec9ff2934f.png)
+
