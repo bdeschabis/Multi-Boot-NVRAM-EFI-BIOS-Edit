@@ -1,0 +1,31 @@
+screenshot_01.png montre ce que fournit comme informations la commande "sudo efibootmgr -v".
+On remarque que pour chaque poste "lanceur" présent en NVRAM, elle donne (pour les, lanceurs des systèmes qui nous intéressent):
+- son rang dans la table NVRAM en notation hexadécimale de 4 chiffres, préfixé de "Boot" ("Boot0000, Boot0001... Boot000A...")
+- sa désignation ("Windows boot manager", "ubuntu", "debian"...)
+- sa localisation 
+    HD pour HDD
+    géométrie du disque GPT, MBR
+    partition 1,2 etc 
+    UUID de la partition (cff17f30-8ef7.....) impossible à saisir sans faire d'erreur
+    le chemin dans la partition identifiée par cet UUID \EFI\UBUNTU\GRUBX64.EFI,  \EFI\DEBIAN\GRUB64.EFI...
+ 
+ et la table Bootorder qui liste les postes à prendre en compte lors du boot 0000,0004,0005,0001...(le premier, puis le second 
+ en cas d'impossibilité, etc 
+ 
+    
+Par contre, ce même programme efibootmgr, quand on désire manipuler les postes de la table (créer, modifier, ...) exige
+qu'on utilise la notation linux (sda, sdb, plus numéro de partition donc sda1, sda2, sdb1...
+Ce n'est pas très commode et c'est source d'erreur (grave dans la mesure où on peut dénaturer ou supprimer le poste
+qui lançait votre système préféré.
+
+
+Le programme Linux Python3 efibootmgr_Us.py (ou efibootmgr_Fr) rassemble les informations fournies par les programmes en lignes
+de commande efibootmgr et blkid, et en fait une synthèse sous forme de GUI plus conviviale, exposée dans les images suivantes :
+screenshot_a.png,   reclassement des postes dans bootorder et par conséquent, changement éventuel de boot loader
+screenshot_b.png,   modification d'un poste de la table des lanceurs de la NvRam
+screenshot_c.png,   création d'un nouveau poste dans la table des lanceurs
+screenshot_d.png,   suppression d'un poste dans la table des lanceurs
+screenshot_e.png    affichage d'informations concernant l'EFI Boot et la NvRam
+screenshot_f.png    installation de BootNext, qui permet d'utiliser le lanceur choisi pour une fois seulement, avec retour à l'état initial au boot suivant 
+screenshot_g.png    suppression de BootNext
+

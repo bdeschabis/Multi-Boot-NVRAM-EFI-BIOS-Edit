@@ -1,0 +1,8 @@
+       versions interprétées, exigeant la présence de Python3, tkinter, tkinter.checkbutton, os, sys, time, subprocess, scrolledtext, threading.timer
+1 - edit efibootmgr_Us.bash and replace "/home/----path to-----" by the path to the efibootmgr_Us.py program
+2 - créate on your desktop a launcher pointing to efibootmgr_Us.bash with "terminal=true" (mandatory) and icon=efibootmgr_nvram.png
+3 - That's all
+
+1 - editer efibootmgr_Fr.bash et remplacer "/home/----chemin vers-----" par le chemin localisant le programme efibootmgr_Fr.py
+2 - créer sur le bureau un lanceur pointant vers efibootmgr_Fr.bash, avec la case "executer dans un terminal" cochée (c'est obligatoire) et avec icône=efibootmgr_nvram.png
+3 - c'est tout
